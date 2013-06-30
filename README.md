@@ -7,13 +7,9 @@ Currently it supports only remote forwarding.
 
 ## Installation
 
-Add this line in your Gemfile.
+Use bundler, add this line in your Gemfile:
 
     gem 'capistrano-forwarding'
-
-And then execute:
-
-    $ bundle
 
 Or install it yourself as:
 
