@@ -60,8 +60,6 @@ module Capistrano
       end
 
       def initialize(forwardings, sessions, options = {})
-        sessions.each{|s| s.logger.level = Logger::INFO}
-
         @forwardings = sessions.map do |session|
           forwardings.map do |forwarding|
             Forwarding.new(forwarding, session)
